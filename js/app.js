@@ -37,8 +37,10 @@ $(document).ready(function() {
 		  function() {
 		    $(this).hide();
 		    $(this).css('left', '540px');
-	  }
-	);
+	  
+	  })
+	//);
+
      
      //$('.hadouken').show();
      //animate hadouken to the right of the screen
@@ -53,10 +55,83 @@ $(document).ready(function() {
      $('.hadouken').hide();
      })
 
-});
+
+   
+   //$('.ryu').keydown(function() {
+   	//alert('x presesd'); 
+/*
+   	var i = jQuery.Event( 'keydown', { keyCode: 88 } ) ;
+   	$( 'body' ).trigger( i );
+
+   	.keypress(function(keydown  i )) {
+	    alert('x presesd'); 
+$('body').keydown
+
+*/
+/*  ('.ryu').keydown(function() {
+  alert( "Handler for .keydown() called." );
+});  */
+
+
+$('body').keydown(function(e){
+        if(e.keyCode == 88){
+            //alert('x has been entered'); }
+            $('.ryu-ready').hide();
+            $('.ryu-cool').show();
+            }
+        })
+
+     $('body').keyup(function() {
+          	$('.ryu-cool').hide();
+            $('.ryu-still').show();
+          
+
+
+/*$(document).ready(function(){
+  $("input").keyup(function(){
+    $("input").css("background-color","red");
+  });
+$("input").keydown(function(){
+    $("input").css("background-color","green");
+  }); */
+
+
+
+         // $("input").keyup(function(){
+    //$("input").css("background-color","red");
+  //});
+            
+
+         
+            
+            
+
+
+
+
+})
+
+
+
+
 
 function playHadouken () {
   $('#hadouken-sound')[0].volume = 0.5;
   $('#hadouken-sound')[0].load();
   $('#hadouken-sound')[0].play();
+
 }
+ });
+
+
+
+
+
+
+
+
+
+
+
+
+	
