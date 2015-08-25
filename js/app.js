@@ -57,20 +57,7 @@ $(document).ready(function() {
 
 
    
-   //$('.ryu').keydown(function() {
-   	//alert('x presesd'); 
-/*
-   	var i = jQuery.Event( 'keydown', { keyCode: 88 } ) ;
-   	$( 'body' ).trigger( i );
-
-   	.keypress(function(keydown  i )) {
-	    alert('x presesd'); 
-$('body').keydown
-
-*/
-/*  ('.ryu').keydown(function() {
-  alert( "Handler for .keydown() called." );
-});  */
+   
 
 
 $('body').keydown(function(e){
@@ -84,32 +71,7 @@ $('body').keydown(function(e){
      $('body').keyup(function() {
           	$('.ryu-cool').hide();
             $('.ryu-still').show();
-          
-
-
-/*$(document).ready(function(){
-  $("input").keyup(function(){
-    $("input").css("background-color","red");
-  });
-$("input").keydown(function(){
-    $("input").css("background-color","green");
-  }); */
-
-
-
-         // $("input").keyup(function(){
-    //$("input").css("background-color","red");
-  //});
-            
-
-         
-            
-            
-
-
-
-
-})
+         })
 
 
 

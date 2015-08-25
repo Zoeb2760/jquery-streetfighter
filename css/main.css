@@ -62,7 +62,23 @@ body {
   left: 540px;
   }
 
+p {
+	
+	left:652px;
+}
 
+
+li {
+	padding-right: 15em;
+}
+	
+.instruction {
+	
+  top: 55px;
+  left: 640px;
+  position: absolute;
+}
+	
 
 
 
