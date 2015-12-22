@@ -6,18 +6,7 @@ $(document).ready(function() {
 	    $('.ryu-still').hide();
 		$('.ryu-ready').show();
 	})
-	/* 1. $(document).ready(function() {
-  $('.ryu').mouseenter(function() {
-    $('.ryu-still').hide();
-    $('.ryu-ready').show();
-  }) 
-  .mouseleave(function() {
-    alert('mouse left');
-  });
-}); or 2 
-	$('.ryu').mouseleave(function() {
-    alert('mouse left .ryu div');
-  }); */
+	
 	.mouseleave(function() {
 	$('.ryu-ready').hide();
 	$('.ryu-still').show();
